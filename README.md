@@ -6,6 +6,7 @@ Injector4k is a DLL injector for Kotlin/Native applications, built with Kotlin/N
 See [not your average injector](#not-your-average-injector) for an explanation.
 
 > **Note**
+>
 > Currently, Injector4k only works with 32-bit (x86) Windows programs, but you can run it on 64-bit Windows just fine.
 >
 > It can be used for messing around with the original versions of retro games from circa 2005, like
@@ -55,6 +56,7 @@ Injector4k comes with a basic graphical user interface for injecting arbitrary D
 You can download the latest version from the [Releases][1] page.
 
 > **Note**
+>
 > Depending on the program you're going to be injecting into, you should choose between `x86` and `x64` versions of
 > injector4k. Selecting the wrong version will not damage your computer, but it will fail with obscure errors during
 > the injection.
@@ -75,6 +77,7 @@ Injector(injectorLogger = PrintlnLogger).inject(
 ```
 
 > **Note**
+>
 > Injector4k artifacts haven't been published yet, but they will be available by April 30th.
 
 [1]: https://github.com/IgnatBeresnev/injector4k/releases
